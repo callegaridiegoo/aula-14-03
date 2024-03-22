@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabela semantica</title>
+    <link rel="stylesheet" href="./estilos css/aula.css">
+    <link rel="stylesheet" href="./estilos css/formulario.css">
+</head>
+<body>
+    <div id="corpo">
+        <header>
+            <h1>Loja de Hardware</h1>   
+        </header>
+        <main>
+            <h2>Cadastro do cliente</h2>
+            <form action="outra_pagina.html" method="get">
+                <fieldset>
+                    <legend>Contato</legend>
+                    <label class="label-50">
+                        Nome: <input type="text" name="txt_nome" placeholder="Seu nome completo" required />
+                    </label> 
+                    <label class="label-50">
+                        E-mail: <input type="email" name="txt_email" placeholder="Seu melhor E-mail" required />
+                    </label>
+                    <label class="label-50">
+                        Telefone: <input type="number" name="txt_telefone" placeholder="Seu telefone" />
+                    </label>
+                    <label class="label-50">
+                        Celular: <input type="number" name="txt-data_nasc" placeholder="Seu celular" required />
+                    </label>
+                    <label>
+                        Assunto: <input type="text" name="txt_cpf" placeholder="Digite o assunto" required />
+                    </label>
+                    <label >
+                        Especificações: <textarea name="txt_especificacao" placeholder="Informações tecnicas do produto" required ></textarea>
+                    </label>
+                    <!-- <label class="label-50">
+                        Genero:
+                        <select>
+                            <option value="">Selecione</option>
+                            <option value="Masculino">Masculino</option>
+                            <option value="Feminimo">Feminino</option>
+                            <option value="lgbtqiadfwsdfsdfsdgfbcvhdfds">Tudo menos homem ou mulher</option>
+                        </select>
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Endereço</legend>
+                    <label class="label-50">
+                        Rua: <input type="text" name="txt_rua" placeholder="Nome da rua" required />
+                    </label>
+                    <label class="label-50">
+                        Numero: <input type="text" name="txt_numero" placeholder="Numero da casa" required>
+                    </label>
+                    <label class="label-50">
+                        Bairro <input type="text" name="txt_bairro" placeholder="Nome do bairro" required />
+                    </label>
+                    <label class="label-50">
+                        Cidade <input type="text" name="txt_cidade" placeholder="Nome da cidade" required />
+                    </label>
+                    <label class="label-50">
+                        Estado:
+                        <select>
+                            <option value="">Selecione</option>
+                            <option value="SP">São Paulo</option>
+                            <option value="MG">Minas Gerais</option>
+                            <option value="PR">Parana</option>
+                        </select>
+                    </label>
+                    <label class="label-50">
+                        CEP: <input type="text" name="txt_cep" required>
+                    </label>
+                </fieldset> -->
+                    <p class="center">
+                        <button type="submit" class="botao-enviar">Enviar</button>
+                        <button type="reset">Cancelar</button>
+                    </p>
+            </form>
+        </main>
+        <footer>
+            Loja de Hardware LTDA
+                <address>
+                    Rua da Fatec, 286
+                    - Jau - <abbr title="São Paulo - Brasil">SP</abbr>
+                </address>
+        </footer>
+    </div>
+</body>
+</html> 
